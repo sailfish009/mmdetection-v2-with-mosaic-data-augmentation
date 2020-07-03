@@ -1,8 +1,8 @@
 # MMdetection v2 with mosaic data augmentation
 
 ## Introduction
-Support SOTA model DetectoRS  
-Now only for wheat detection task(single class), I have no idea to load multi-class labels problem after mosaic. Mabey fix it late.  
+### Now only for wheat detection task(single class detection), I have no idea to load multi-class labels after mosaic. May fix it later.  
+Support SOTA model DetectoRS    
 Please check configs/detectors/detectors_cascade_rcnn_r50_1x_coco.py/train_pipeline  
 Please check mmdet/datasets/mosaic.py mosaiccoco.py my_mosaic.py  
 Please check mmdet/datasets/pipelines/loading  
