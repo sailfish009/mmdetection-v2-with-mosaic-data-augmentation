@@ -7,7 +7,9 @@ Please check configs/detectors/detectors_cascade_rcnn_r50_1x_coco.py/train_pipel
 Please check mmdet/datasets/mosaic.py mosaiccoco.py my_mosaic.py  
 Please check mmdet/datasets/pipelines/loading  
 [Colab Training Notebook](MMDetection_DetectoRS_training_backbone_resnet50_ft.ipynb)  
-![image](wheat-mosaic2.png)  
+
+![image](wheat-mosaic.png) 
+
 ## Useage
 Replace LoadImageFromFile and LoadAnnotations with LoadMosaicImageAndAnnotations in train_pipeline
 
